@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
-<article class="flex vh-100">
-    <div class="w-40-l pa4 vh-100 flex flex-column justify-center-l">
+<article class="flex vh-100-l">
+    <div class="w-40-l pa4 vh-100-l flex flex-column justify-center-l">
         <h1 class="fw4 measure ma0 mt4 serif f3 f2-ns">
             <span class="ttu tracked f7 fw3 gray lh-copy db mb2 sans-serif">Andelsboligforeningen</span>
             Høegh-Guldbergs Gade 71-71A
@@ -69,9 +69,9 @@
         </div>
     </article>
 <?php else : ?>
-    <article class="vh-100 bg-near-white flex-l" id="login">
-        <div class="w-50-l vh-100-l flex items-center justify-center bg-white pb4 pa0-l">
-            <form action="<?php bloginfo('url') ?>/wp-login.php" method="post" class="measure-narrow w-100 h5-l">
+    <article class="vh-100-l bg-near-white flex-l" id="login">
+        <div class="w-50-l vh-100-l flex items-center justify-center bg-white pb4 pa4 pa0-l">
+            <form action="<?php bloginfo('url') ?>/wp-login.php" method="post" class="measure-narrow-ns w-100 h5-l">
                 <h2>
                     Log ind
                 </h2>
@@ -97,7 +97,7 @@
             </form>
         </div>
         <div class="w-50-l vh-100-l flex items-center justify-center">
-            <div class="measure-l w-100 h5-l measure-narrow">
+            <div class="measure-l w-100 h5-l measure-narrow pa4 pa0-l">
                 <h2 class="gray">Anmod om login</h2>
                 <p class="lh-copy f6">
                     Hvis du ønsker et login, skal du sende en anmodning til: <span class="blue">bestyrelse snabel-a hgg71-71a.dk</span>.
