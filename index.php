@@ -42,8 +42,9 @@
             <?php endif; ?>
         </section>
     </div>
-    <div class="w-60 vh-100 ba bw5 b--white dn db-l" style="background-position: center;background-image: url('<?php echo get_template_directory_uri() . '/hgg71-71a.jpg' ?>'); background-size: cover">
-
+    <div class="w-60 vh-100 dn flex-l items-center justify-center pa5">
+        <div class="cover w-100 h-100" style="background: url('<?php echo get_template_directory_uri() . '/hgg71-71a.jpg' ?>') center;">
+        </div>
     </div>
 </article>
 
