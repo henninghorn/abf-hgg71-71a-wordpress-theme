@@ -98,10 +98,10 @@
             </form>
         </div>
         <div class="w-50-l vh-100-l flex items-center justify-center">
-            <div class="measure-l w-100 h5-l measure-narrow pa4 pa0-l">
-                <h2 class="gray">Anmod om login</h2>
+            <div class="w-100 h5-l measure-narrow pa4 pa0-l">
+                <h2 class="gray">Kontakt bestyrelsen</h2>
                 <p class="lh-copy f6">
-                    Hvis du ønsker et login, skal du sende en anmodning til: <span class="blue">bestyrelse snabel-a hgg71-71a.dk</span>.
+                    Ønsker du at komme i kontakt med bestyrelsen eller anmode om adgang til dokumenter, skal du skrive en mail til: <span class="blue nowrap">bestyrelse (a) hgg71-71a.dk</span>.
                 </p>
             </div>
         </div>
