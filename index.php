@@ -1,6 +1,8 @@
 <?php get_header(); ?>
 
-<article class="flex vh-100-l">
+<article class="flex-l vh-100-l">
+    <div class="dn-l tc w-100 h4 h5-ns cover" style="background: url('<?php echo get_template_directory_uri() . '/hgg71-71a.jpg' ?>') center">
+    </div>
     <div class="w-40-l pa4 vh-100-l flex flex-column justify-center-l">
         <h1 class="fw4 measure ma0 mt4 serif f3 f2-ns">
             <span class="ttu tracked f7 fw3 gray lh-copy db mb2 sans-serif">Andelsboligforeningen</span>
@@ -101,7 +103,7 @@
             <div class="w-100 h5-l measure-narrow pa4 pa0-l">
                 <h2 class="gray">Kontakt bestyrelsen</h2>
                 <p class="lh-copy f6">
-                    Ønsker du at komme i kontakt med bestyrelsen eller anmode om adgang til dokumenter, skal du skrive en mail til: <span class="blue nowrap">bestyrelse (a) hgg71-71a.dk</span>.
+                    Ønsker du at komme i kontakt med bestyrelsen eller anmode om adgang til dokumenter, kan du skrive en mail til: <span class="blue nowrap">bestyrelse (a) hgg71-71a.dk</span>.
                 </p>
             </div>
         </div>
