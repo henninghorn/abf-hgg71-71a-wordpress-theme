@@ -57,18 +57,23 @@
             <a href="<?php echo wp_logout_url(get_bloginfo('url')) ?>" class="ml2 link dib f7 bg-moon-gray black-80 pa1 ph2 br2 dim">Log ud</a>
         </nav>
         <div class="w-50-l fl-l pa5-l pa3 pt0 pt0-l">
-            <h2 class="ma0">Dokumenter</h2>
+            <h2 class="ma0">Almene dokumenter</h2>
             <p class="measure lh-copy">
-                Her finder du foreningens generelle dokumenter.
+                Her finder du foreningens almene dokumenter.
             </p>
-            <?php echo do_shortcode('[sdm_show_dl_from_category category_slug="dokumenter" orderby="date" order="desc"]') ?>
+            <?php echo do_shortcode('[sdm_show_dl_from_category category_slug="dokumenter" orderby="name" order="desc"]') ?>
         </div>
         <div class="w-50-l fl-l pa5-l pa3 pt0 pt0-l">
             <h2 class="ma0">Referater</h2>
             <p class="measure lh-copy">
-                Her finder du referater fra bestyrelsesmøder og generalforsamling.
+                Her finder du referater fra bestyrelsesmøder.
             </p>
-            <?php echo do_shortcode('[sdm_show_dl_from_category category_slug="referater" orderby="date" order="desc"]') ?>
+            <?php echo do_shortcode('[sdm_show_dl_from_category category_slug="referater" orderby="name" order="desc"]') ?>
+            <h2 class="ma0">Generalforsamling</h2>
+            <p class="measure lh-copy">
+                Dokumenter relateret til generalforsamlinger.
+            </p>
+            <?php echo do_shortcode('[sdm_show_dl_from_category category_slug="generalforsamling" orderby="name" order="desc"]') ?>
         </div>
     </article>
 <?php else : ?>
